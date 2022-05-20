@@ -1,0 +1,83 @@
+#navbar{
+    background-color: green;
+    height: 100px;
+}
+
+#sectionsGroup{
+    border: 1px solid black;
+}
+
+#section1{
+    display: inline-block;
+    background-color: red;
+    height: 400px;
+}
+
+#section2{
+    display: inline-block;
+    background-color: orange;
+    height: 400px;
+}
+
+#section3{
+    display: inline-block;
+    background-color: orchid;
+    height: 400px;
+}
+
+#footer{
+    background-color: blue;
+    height: 100px;
+}
+
+/*Computadores*/
+@media screen and (min-width:1024px){
+    
+    #section1{
+        width: 33.2%;
+    }
+
+    #section2{
+        width: 33.2%;
+    }
+    
+    #section3{
+        width: 33.1%;
+    }
+
+}
+
+/*Tablets*/
+@media screen and (min-width:768px) 
+    and (max-width:1023px){
+
+    #section1{
+        width: 49%;
+    }
+
+    #section2{
+        width: 49%;
+    }
+    
+    #section3{
+        width: 100%;
+    }
+
+}
+
+/*Telemóveis*/
+@media screen and (max-width:767px){
+    
+    #section1{
+        width: 100%;
+    }
+
+    #section2{
+        width: 100%;
+    }
+    
+    #section3{
+        width: 100%;
+    }
+
+}
