@@ -1,0 +1,13 @@
+.caixa{
+    border: 1px solid black;
+    width: 49%;
+    text-align: center;
+}
+
+#caixaEsquerda{
+    float: left;
+}
+
+#caixaDireita{
+    float: right;
+}

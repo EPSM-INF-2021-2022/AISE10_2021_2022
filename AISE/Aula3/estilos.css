@@ -1,0 +1,35 @@
+#navbar{
+    background-color: green;
+    height: 100px;
+}
+
+#sectionsGroup{
+    border: 1px solid black;
+    height: 400px;
+}
+
+#section1{
+    display: inline-block;
+    background-color: red;
+    width: 33.2%;
+    height: 100%;
+}
+
+#section2{
+    display: inline-block;
+    background-color: orange;
+    width: 33.2%;
+    height: 100%;
+}
+
+#section3{
+    display: inline-block;
+    background-color: orchid;
+    width: 33.1%;
+    height: 100%;
+}
+
+#footer{
+    background-color: blue;
+    height: 100px;
+}
